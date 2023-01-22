@@ -83,7 +83,7 @@ RUN sed -i 's/python-virtualenv //' ./klipper/scripts/install-ubuntu-18.04.sh
 
 RUN ./klipper/scripts/install-ubuntu-18.04.sh
 
-RUN cp klipper/config/printer-anet-a8-2017.cfg /home/octoprint/printer.cfg
+RUN cp klipper/config/printer-anycubic-i3-mega-2017.cfg /home/octoprint/printer.cfg
 
 USER root
 
